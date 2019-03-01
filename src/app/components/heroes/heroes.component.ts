@@ -22,9 +22,9 @@ export class HeroesComponent implements OnInit {
     // console.log(this.heroes);
   }
 
-  verHeroe(idx: number) {
+  veroHeroe(idx: number) {
     // console.log(idx);
     this.router.navigate( ['/heroe', idx] );
-  }
+  }                  //funcion vieja usada antes de las tarjetas padre 
 
 }
